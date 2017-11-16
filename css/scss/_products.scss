@@ -9,9 +9,6 @@
     ul li{
         width: 300px;
         float: left;
-        &:nth-child(even){
-            margin-left:20px;
-        }
 
         img{
             border: 3px solid $white;
@@ -42,9 +39,6 @@
     ul li{
         @include d(m){
             width: 220px;
-        }
-        @include d(s){
-            width: 140px;
         }
     }
 }
