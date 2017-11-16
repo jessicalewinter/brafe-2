@@ -1,23 +1,13 @@
-.container{
-    max-width: 960px;
-    margin: 0 auto;
-    &::after, &::before{
-        content: '';
-        display: table;
-        clear: both;
-    }
-    @include d(m){
-        max-width: 720px;
-    }
-    @include d(s){
-        max-width: 300px;
-    }
-}
+
 .filter{
     background: $dark-grey;
     border: 3px solid $grey;
     margin: 0 10px;
     padding: 20px;
+    
+    @include d(s){
+        display: none;
+    }
     
     h2{
         font-size: 1.7em;
