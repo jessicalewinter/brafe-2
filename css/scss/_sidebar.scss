@@ -16,10 +16,8 @@
 .filter{
     background: $dark-grey;
     border: 3px solid $grey;
-    width: 300px;
     margin: 0 10px;
     padding: 20px;
-    float: left;
     
     h2{
         font-size: 1.7em;
@@ -75,13 +73,5 @@
                         60px 0 0 0 currentColor,
                         80px 0 0 0 currentColor;
         }
-    }
-}
-.filter{
-    @include d(m){
-        width: 220px;
-    }
-    @include d(s){
-        display:none;
     }
 }

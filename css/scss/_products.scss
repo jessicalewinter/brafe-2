@@ -1,14 +1,10 @@
 .products{
-    width: 620px;
     margin: 0 10px;
-    float: left;
 
     h1{
         font-size: 3.2em;
     }
     ul li{
-        width: 300px;
-        float: left;
 
         img{
             border: 3px solid $white;
@@ -26,19 +22,6 @@
         }
         h2{
             font-size: 1.2em;
-        }
-    }
-}
-.products{
-    @include d(m){
-        width: 460px;
-    }
-    @include d(s){
-        width: 300px;
-    }
-    ul li{
-        @include d(m){
-            width: 220px;
         }
     }
 }
