@@ -32,3 +32,19 @@
         }
     }
 }
+.products{
+    @include d(m){
+        width: 460px;
+    }
+    @include d(s){
+        width: 300px;
+    }
+    ul li{
+        @include d(m){
+            width: 220px;
+        }
+        @include d(s){
+            width: 140px;
+        }
+    }
+}

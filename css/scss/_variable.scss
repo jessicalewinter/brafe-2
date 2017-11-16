@@ -69,6 +69,9 @@ $dark-yellow: #d7a54d;
 
 //-------------------------------------Mixin Responsive-------------------------------------------
 
+$l-device: 980px;
+$m-device: 740px;
+
 @mixin d($size) {
 	@if $size == l {
 		@media screen and (min-width: #{$l-device}) {

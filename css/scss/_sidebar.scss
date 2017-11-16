@@ -6,6 +6,12 @@
         display: table;
         clear: both;
     }
+    @include d(m){
+        max-width: 720px;
+    }
+    @include d(s){
+        max-width: 300px;
+    }
 }
 .filter{
     background: $dark-grey;
@@ -69,5 +75,13 @@
                         60px 0 0 0 currentColor,
                         80px 0 0 0 currentColor;
         }
+    }
+}
+.filter{
+    @include d(m){
+        width: 220px;
+    }
+    @include d(s){
+        display:none;
     }
 }
