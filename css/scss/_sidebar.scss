@@ -1,27 +1,14 @@
-.container{
-    max-width: 960px;
-    margin: 0 auto;
-    &::after, &::before{
-        content: '';
-        display: table;
-        clear: both;
-    }
-    @include d(m){
-        max-width: 720px;
-    }
-    @include d(s){
-        max-width: 300px;
-    }
-}
+
 .filter{
     background: $dark-grey;
     border: 3px solid $grey;
     margin: 0 10px;
     padding: 20px;
-    
+    align-self: flex-start;
     h2{
         font-size: 1.7em;
         padding: 10px 0;
+        font-weight: bold;
     }
 
     ul{
@@ -73,5 +60,8 @@
                         60px 0 0 0 currentColor,
                         80px 0 0 0 currentColor;
         }
+    }
+    @include d(s){
+        display: none;
     }
 }

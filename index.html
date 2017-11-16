@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Brafé-2</title>
 </head>
@@ -26,62 +27,64 @@
     </header>
 
     <div class="container">
-        <nav class="filter">
-            <h2>Price</h2>
-            <ul>
-                <li>$</li>
-                <li>$$</li>
-                <li>$$$</li>
-            </ul>
-            <h2>Flavor</h2>
-            <ul class="flavor">
-                <li><span class="flavor-1">Marrom</span></li>
-                <li><span class="flavor-2">Laranja</span></li>
-                <li><span class="flavor-3">Amarelo</span></li>
-            </ul>
-            <h2>Time</h2>
-            <ul class="time">
-                <li>15 min+</li>
-                <li>25min +</li>
-                <li>35min +</li>
-            </ul>
-        </nav>
+        <div class="row">
+            <nav class="filter col-sm-4">
+                <h2>Price</h2>
+                <ul>
+                    <li>$</li>
+                    <li>$$</li>
+                    <li>$$$</li>
+                </ul>
+                <h2>Flavor</h2>
+                <ul class="flavor">
+                    <li><span class="flavor-1">Marrom</span></li>
+                    <li><span class="flavor-2">Laranja</span></li>
+                    <li><span class="flavor-3">Amarelo</span></li>
+                </ul>
+                <h2>Time</h2>
+                <ul class="time">
+                    <li>15 min+</li>
+                    <li>25 min +</li>
+                    <li>35 min +</li>
+                </ul>
+            </nav>
 
-        <section class="products">
-            <h1>Cappuccino</h1>
-            <ul>
-                <li>
-                    <img src="img/cafe-1.jpg" alt="Vanilla Diceys">
-                    <span>R$4.25</span>
-                    <h2>Vanilla Diceys</h2>
-                </li>
-                <li>
-                    <img src="img/cafe-2.jpg" alt="Blueberry Latte">
-                    <span>R$4.25</span>
-                    <h2>Blueberry Latte</h2>
-                </li>
-                <li>
-                    <img src="img/cafe-3.jpg" alt="Ghostbusters Brown">
-                    <span>R$4.25</span>
-                    <h2>Ghostbusters Brown</h2>
-                </li>
-                <li>
-                    <img src="img/cafe-4.jpg" alt="Strawberry Fields">
-                    <span>R$4.25</span>
-                    <h2>Strawberry Fields</h2>
-                </li>
-                <li>
-                    <img src="img/cafe-5.jpg" alt="Scane Comb">
-                    <span>R$4.25</span>
-                    <h2>Scane Comb</h2>
-                </li>
-                <li>
-                    <img src="img/cafe-6.jpg" alt="Wild John">
-                    <span>R$4.25</span>
-                    <h2>Wild John</h2>
-                </li>
-            </ul>
-        </section>
+            <section class="products col-sm-8">
+                <h1>Cappuccino</h1>
+                <ul class="row">
+                    <li class="col-md-6">
+                        <img src="img/cafe-1.jpg" alt="Vanilla Diceys">
+                        <span>R$4.25</span>
+                        <h2>Vanilla Diceys</h2>
+                    </li>
+                    <li class="col-md-6">
+                        <img src="img/cafe-2.jpg" alt="Blueberry Latte">
+                        <span>R$4.25</span>
+                        <h2>Blueberry Latte</h2>
+                    </li>
+                    <li class="col-md-6">
+                        <img src="img/cafe-3.jpg" alt="Ghostbusters Brown">
+                        <span>R$4.25</span>
+                        <h2>Ghostbusters Brown</h2>
+                    </li>
+                    <li class="col-md-6">
+                        <img src="img/cafe-4.jpg" alt="Strawberry Fields">
+                        <span>R$4.25</span>
+                        <h2>Strawberry Fields</h2>
+                    </li>
+                    <li class="col-md-6">
+                        <img src="img/cafe-5.jpg" alt="Scane Comb">
+                        <span>R$4.25</span>
+                        <h2>Scane Comb</h2>
+                    </li>
+                    <li class="col-md-6">
+                        <img src="img/cafe-6.jpg" alt="Wild John">
+                        <span>R$4.25</span>
+                        <h2>Wild John</h2>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </div>
 
     <footer class="footer">
