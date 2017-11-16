@@ -1,0 +1,34 @@
+.products{
+    width: 620px;
+    margin: 0 10px;
+    float: left;
+
+    h1{
+        font-size: 3.2em;
+    }
+    ul li{
+        width: 300px;
+        float: left;
+        &:nth-child(even){
+            margin-left:20px;
+        }
+
+        img{
+            border: 3px solid $white;
+            box-shadow: 0 0 0 3px $black;
+            margin: 40px 3px 3px 0;
+        }
+        span{
+            background: $dark-grey;
+            padding: 10px;
+            font-size: 1em;
+            font-weight: bold;
+            position: relative;
+            top:-15px;
+            right:3px;
+        }
+        h2{
+            font-size: 1.2em;
+        }
+    }
+}
